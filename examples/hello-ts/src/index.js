@@ -21,5 +21,5 @@ exports.addNumbers = addNumbers;
 //== Run the program ==//
 (async () => {
     console.log(await addNumbers(3, 4));
-    console.log(await addNumbers(7, 9));
+    console.log(await addNumbers(9, 7));
 })();
