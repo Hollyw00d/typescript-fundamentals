@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "es2015",
     "noEmit": true,
     "strictNullChecks": true,
     "strict": true,
