@@ -1,3 +1,5 @@
+import { createNoSubstitutionTemplateLiteral } from "typescript";
+
 /**
  * Create a promise that resolves after some time
  * @param n number of milliseconds before promise resolves
@@ -19,4 +21,5 @@ export async function addNumbers(a: number, b: number) {
 //== Run the program ==//
 (async () => {
   console.log(await addNumbers(3, 4));
+  console.log(await addNumbers(7, 9));
 })();
