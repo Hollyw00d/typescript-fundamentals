@@ -1,4 +1,4 @@
-import { JSONValue, JSONObject, JSONArray } from "json-types";
+import { JSONValue, JSONObject, JSONArray } from "json-type";
 
 function isJSONValue(val: JSONValue) {}
 function isJSONArray(val: JSONArray) {}
