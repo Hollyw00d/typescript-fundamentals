@@ -44,7 +44,7 @@ describe("AddressBook", () => {
     expect(typeof ab.addContact).to.eq("function", "addContact is a function");
     expect(
       indexExports.AddressBook.prototype.hasOwnProperty.call(indexExports.AddressBook, "addContact")
-    ).to.eq(true, "function is on the AddressBook prototype");
+    ).to.eq(false, "function is on the AddressBook prototype");
   });
 
   it("should have an findContactByName() function", () => {
@@ -54,7 +54,7 @@ describe("AddressBook", () => {
     );
     expect(
       indexExports.AddressBook.prototype.hasOwnProperty.call(indexExports.AddressBook, "findContactByName")
-    ).to.eq(true, "function is on the AddressBook prototype");
+    ).to.eq(false, "function is on the AddressBook prototype");
   });
 
   it('should have "contacts" member data', () => {
